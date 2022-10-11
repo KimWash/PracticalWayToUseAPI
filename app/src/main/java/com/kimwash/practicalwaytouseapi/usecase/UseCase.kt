@@ -6,7 +6,7 @@ abstract class UseCase<ParamT, ResultT> () {
     private val TAG = "[UseCase]"
 
     suspend fun run(params: ParamT):ResultT {
-        Log.d(TAG, "Running UseCase $this with following params: $params")
+        Log.i(TAG, "Running UseCase $this with following params: $params")
         return onExecute(params)
     }
 

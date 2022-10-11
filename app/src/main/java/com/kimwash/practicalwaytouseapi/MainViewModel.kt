@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 
 data class RestaurantUiState(
     val data: List<Restaurant>? = null,
-    val loading: Boolean? = null,
+    val loading: Boolean = false,
     val errorMessage: String? = null
 )
 

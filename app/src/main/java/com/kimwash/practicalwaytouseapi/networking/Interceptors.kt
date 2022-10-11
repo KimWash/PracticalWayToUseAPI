@@ -19,7 +19,7 @@ class ResponseInterceptor : Interceptor {
         val request = chain.request()
         // Request
         val response = chain.proceed(request)
-        Log.d(TAG, response.toString())
+        Log.i(TAG, response.toString())
         // Get raw json response
         val rawJsonResponse: String = response.body().toString()
 
