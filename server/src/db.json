@@ -1,0 +1,22 @@
+{
+	"restaurant": {
+	"responseCode": "OK",
+	"responseMessage": "식당 목록을 정상적으로 불러왔습니다.",
+	"data": [
+		{
+			"id": 0,
+			"name": "크레이지카츠",
+			"address": "합정",
+			"rate": 4.7,
+			"reviews": [
+				{
+					"id": 0,
+					"writer": {
+						"uid": "ckm0728"
+					},
+					"content": "존나맛있음."
+				}
+			]
+		}
+	]}
+}
